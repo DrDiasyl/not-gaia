@@ -1,0 +1,216 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/vehicledoor,
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"b" = (
+/obj/floor_decal/industrial/outline/red,
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"f" = (
+/obj/structure/bed/chair/shuttle/red{
+	dir = 8
+	},
+/obj/structure/vehiclewindow{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/darkred,
+/area/interior)
+"g" = (
+/obj/structure/vehicledoor_driver,
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"o" = (
+/obj/structure/bed/chair/shuttle/red{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/floor_decal/spline/fancy/black{
+	dir = 9
+	},
+/turf/simulated/floor/shuttle/darkred,
+/area/interior)
+"q" = (
+/obj/structure/bed/chair/shuttle/red{
+	dir = 4
+	},
+/obj/structure/vehiclewindow{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/machinery/light/small,
+/obj/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/darkred,
+/area/interior)
+"s" = (
+/obj/structure/bed/chair/shuttle/red{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/floor_decal/spline/fancy/black{
+	dir = 5
+	},
+/turf/simulated/floor/shuttle/darkred,
+/area/interior)
+"t" = (
+/obj/floor_decal/industrial/loading,
+/obj/effect/vehicle_entrance_driver,
+/obj/machinery/door/window/brigdoor/southleft{
+	req_access = list("ACCESS_ICCG")
+	},
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"x" = (
+/obj/machinery/hologram/holopad/longrange,
+/obj/floor_decal/industrial/outline/red,
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"z" = (
+/obj/structure/bed/chair/shuttle/red{
+	dir = 8
+	},
+/obj/structure/vehiclewindow{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 1;
+	pixel_y = -26
+	},
+/obj/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/simulated/floor/shuttle/darkred,
+/area/interior)
+"A" = (
+/obj/paint/red/dark,
+/turf/simulated/wall/invincible,
+/area/interior)
+"B" = (
+/obj/structure/window/reinforced,
+/obj/item/clothing/under/color/orange,
+/obj/item/clothing/under/color/orange,
+/obj/item/clothing/under/color/orange,
+/obj/item/clothing/under/color/orange,
+/obj/item/clothing/shoes/orange,
+/obj/item/clothing/shoes/orange,
+/obj/item/clothing/shoes/orange,
+/obj/item/clothing/shoes/orange,
+/obj/item/storage/box/handcuffs,
+/obj/structure/closet/walllocker{
+	pixel_x = -32
+	},
+/obj/floor_decal/industrial/hatch/grey,
+/obj/item/crowbar/emergency_forcing_tool,
+/obj/item/grenade/chem_grenade/teargas,
+/obj/item/clothing/mask/gas,
+/obj/item/key/car/iccg_apc,
+/obj/item/device/radio/intercom/gaia_iccg{
+	pixel_y = 24
+	},
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"F" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 23;
+	pixel_x = 7
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_y = 23;
+	pixel_x = -7
+	},
+/obj/structure/reagent_dispensers/peppertank{
+	pixel_x = 32
+	},
+/obj/floor_decal/industrial/outline/grey,
+/obj/structure/window/reinforced,
+/obj/machinery/button/flasher{
+	pixel_y = 24;
+	id_tag = "mp_apc";
+	pixel_x = 24
+	},
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"N" = (
+/obj/structure/bed/chair/shuttle/red{
+	dir = 4
+	},
+/obj/structure/vehiclewindow{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/turf/simulated/floor/shuttle/darkred,
+/area/interior)
+"S" = (
+/obj/floor_decal/industrial/loading{
+	dir = 1
+	},
+/obj/effect/vehicle_entrance,
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+"U" = (
+/obj/machinery/flasher{
+	id_tag = "mp_apc"
+	},
+/obj/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/shuttle/black,
+/area/interior)
+
+(1,1,1) = {"
+A
+A
+A
+A
+A
+A
+A
+"}
+(2,1,1) = {"
+A
+B
+s
+N
+N
+q
+A
+"}
+(3,1,1) = {"
+g
+t
+b
+U
+x
+S
+a
+"}
+(4,1,1) = {"
+A
+F
+o
+f
+f
+z
+A
+"}
+(5,1,1) = {"
+A
+A
+A
+A
+A
+A
+A
+"}

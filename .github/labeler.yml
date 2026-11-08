@@ -1,0 +1,56 @@
+':open_file_folder: Репозиторий':
+- changed-files:
+  - any-glob-to-any-file:
+    - '.github/**/*'
+    - '.vscode/**/*'
+    - 'docs/**/*'
+    - 'scripts/**/*'
+    - 'test/**/*'
+    - 'tools/**/*'
+    - '.codebeatignore'
+    - '.codebeatsettings'
+    - '.editorconfig'
+    - '.git*'
+    - 'biome.json'
+    - 'libmysql.dll'
+    - 'LICENSE'
+    - 'README.md'
+    - 'SpacemanDMM.toml'
+
+':world_map: Карты':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.dmm'
+
+':mountain: Спрайты':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.dmi'
+
+':sound: Звуки':
+- changed-files:
+  - any-glob-to-any-file:
+    - '**/*.aif'
+    - '**/*.aiff'
+    - '**/*.it'
+    - '**/*.mid'
+    - '**/*.midi'
+    - '**/*.mod'
+    - '**/*.mp3'
+    - '**/*.ogg'
+    - '**/*.oxm'
+    - '**/*.raw'
+    - '**/*.s3m'
+    - '**/*.wma'
+    - '**/*.wav'
+    - '**/*.xm'
+
+':page_facing_up: Конфиги':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'config/example/**/*'
+
+':floppy_disk: База данных':
+- changed-files:
+  - any-glob-to-any-file:
+    - 'sql/**/*'

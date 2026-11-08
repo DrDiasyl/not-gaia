@@ -1,0 +1,35 @@
+name: "Чейнджлог: PR -> YML"
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+    - dev-sierra
+
+jobs:
+  MakeCL:
+    permissions:
+      contents: write # required to push the changelog chunk yml commit
+    runs-on: ubuntu-latest
+    if: github.repository == 'SierraBay/SierraBay12' # to prevent this running on forks
+    steps:
+      - name: Checkout
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29
+        with:
+          fetch-depth: 25
+      - name: Python setup
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d
+        with:
+          python-version: '3.x'
+      - name: Install depends
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruamel.yaml PyGithub
+      - name: Make CL
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GIT_EMAIL: "${{ secrets.BOT_EMAIL }}"
+          GIT_NAME: "${{ secrets.BOT_NAME }}"
+        run: python tools/changelog/generate_cl.py

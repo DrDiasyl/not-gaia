@@ -1,0 +1,12 @@
+#ifndef MODPACK_UTILITY_ITEMS
+#define MODPACK_UTILITY_ITEMS
+
+#include "_utility_items.dm"
+
+
+#include "code/multimeter.dm"
+#include "code/noose.dm"
+#include "code/wires.dm"
+#include "code/ghost_speed.dm"
+
+#endif

@@ -1,0 +1,75 @@
+#ifndef MODPACK_FD_ASSETS
+#define MODPACK_FD_ASSETS
+
+#include "_fd_assets.dm"
+
+#include "code/_defines.dm"
+
+#include "code/clothing/badges.dm"
+#include "code/clothing/battlewizards.dm"
+#include "code/clothing/clothing_under.dm"
+#include "code/clothing/ftu_voidsuits.dm"
+#include "code/clothing/scgf_voidsuits.dm"
+
+#include "code/machinery/ai_slipper.dm"
+#include "code/machinery/autoaccess_machinery.dm"
+#include "code/machinery/big_engine.dm"
+#include "code/machinery/light_types.dm"
+#include "code/machinery/lighting.dm"
+#include "code/machinery/supply_console.dm"
+#include "code/machinery/telescreen_consoles.dm"
+#include "code/machinery/turret.dm"
+
+#include "code/mobs/big_nymph.dm"
+#include "code/mobs/Defiler.dm"
+#include "code/mobs/mobs.dm"
+#include "code/mobs/psi_spiders.dm"
+#include "code/mobs/pureevil.dm"
+
+#include "code/obj/items/encryption_key_boxes.dm"
+#include "code/obj/items/grown_food.dm"
+#include "code/obj/items/items.dm"
+#include "code/obj/items/music_tape.dm"
+#include "code/obj/items/storage_backpacks.dm"
+#include "code/obj/items/tile_types.dm"
+#include "code/obj/items/bunker_intecrom.dm"
+
+#include "code/obj/landmarks.dm"
+#include "code/obj/random.dm"
+#include "code/obj/vines.dm"
+
+#include "code/structures/decor.dm"
+#include "code/structures/mag_table_fd.dm"
+#include "code/structures/portals.dm"
+#include "code/structures/secure_lockers.dm"
+#include "code/structures/shooting_range.dm"
+#include "code/structures/wallframe_types.dm"
+#include "code/structures/tent.dm"
+#include "code/structures/2fl_bed.dm"
+
+#include "code/turfs/turfs.dm"
+#include "code/turfs/wall_paint.dm"
+#include "code/turfs/wall_types.dm"
+#include "code/turfs/jungle.dm"
+
+
+#include "code/accessory.dm"
+#include "code/fd_sofa_override.dm"
+#include "code/floor_decals.dm"
+#include "code/fullscreen.dm"
+#include "code/loadout.dm"
+#include "code/added_branch_outfits.dm"
+// #include "code/added_branches.dm"
+#include "code/diona_mech_light_fix.dm"
+#include "code/dionae.dm"
+#include "code/psistuff.dm"
+#include "code/skills.dm"
+#include "code/ssinput_vent_fix.dm"
+#include "code/water.dm"
+#include "code/~TO_MAKE.dm"
+
+#include "code/trauma/code.dm"
+#include "code/awards/awards2024.dm"
+#include "code/autodoc.dm"
+
+#endif
